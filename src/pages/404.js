@@ -3,6 +3,7 @@ import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
+import { RawHtml } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
@@ -35,5 +36,8 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<meta name={"viewport"} content={"width=1024"} place={"endOfHead"} rawKey={"60cbbde0646a83f804839baf"} />
+		</RawHtml>
 	</Theme>;
 });
