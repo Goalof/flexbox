@@ -9,10 +9,16 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Flexible Box
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60ca6e11950f4f001fe37dcf/images/favicon.png?v=2021-06-17T22:36:04.119Z"} />
+			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
 		<Link
 			font={"--capture"}
